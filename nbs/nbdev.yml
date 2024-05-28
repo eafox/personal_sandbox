@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "personal_sandbox"
+  site-url: "https://eafox.github.io/personal_sandbox"
+  description: "Somewhere to try all the cool things I've been seeing"
+  repo-branch: main
+  repo-url: "https://github.com/eafox/personal_sandbox"
