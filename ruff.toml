@@ -1,2 +1,4 @@
+exclude = ["personal_sandbox/*"]
+
 [lint.per-file-ignores]
 "*.ipynb" = ["E262", "E265"]
