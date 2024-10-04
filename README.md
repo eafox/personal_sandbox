@@ -73,3 +73,7 @@ hooks to lint and format the code, including notebooks.
 ``` python
 2+2
 ```
+
+``` python
+1*1
+```
