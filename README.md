@@ -71,9 +71,9 @@ hooks to lint and format the code, including notebooks.
     2
 
 ``` python
-2+2
+2 + 2
 ```
 
 ``` python
-1*1
+1 * 1
 ```
