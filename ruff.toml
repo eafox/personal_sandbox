@@ -1,4 +1,5 @@
-exclude = ["personal_sandbox/*"]
+exclude = ["personal_sandbox/*", "nbs/*"]
 
-[lint.per-file-ignores]
-"*.ipynb" = ["E262", "E265"]
+[lint]
+ignore = ["E265"]
+preview = true
