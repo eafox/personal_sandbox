@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Personal Sandbox",
+    "section": "",
+    "text": "Somewhere to try all the cool things I’ve been seeing.",
+    "crumbs": [
+      "Personal Sandbox"
+    ]
+  },
+  {
+    "objectID": "index.html#how-i-set-this-up",
+    "href": "index.html#how-i-set-this-up",
+    "title": "Personal Sandbox",
+    "section": "How I set this up:",
+    "text": "How I set this up:\nTo start, I created a new repository on GitHub, cloned it to my local machine, and then followed the start-up instructions for nbdev, although I used the terminal rather than JupyterLab. This included installing nbdev and Quarto.\nOnce you run nbdev_new, the tutorial also takes you through…\n\nthe creation of a GitHub Pages site for the new repo and how to preview the pages locally,\nsetting up nbdev’s pre-commit hooks to clean notebook metadata (which prevents unnecessary merge conflicts), and\nsetting up GitHub Actions to run automatically when code is pushed to the master branch.\n\nI also added Ruff to the pre-commit hooks to lint and format the code, including notebooks. * I’ve been trying to keep the nbdev directives working by having Ruff ignore code E265 which is currently (as of 2024-10-04) in preview but am still having trouble. Ruff wants to add a space in between the # and | whereas the directive needs them formatted as #|. If I can’t get it to work, I will have to exempt the nbdev notebooks from Ruff which would be unfortunate. nbdev is good for being able to annotate code for display and Ruff replaces several tools in one while being quicker than each of them as well.",
+    "crumbs": [
+      "Personal Sandbox"
+    ]
+  },
+  {
+    "objectID": "index.html#what-comes-next",
+    "href": "index.html#what-comes-next",
+    "title": "Personal Sandbox",
+    "section": "What comes next:",
+    "text": "What comes next:\n\nFind a large dataset to work with or look into simulation example problems.\nSet up logging.\nSet up a project on DigitalOcean (with very extensive spend limits) and practice using its various APIs.\nUse Ibis to interact with a database.\nExperiment with terraform.\nSet up an environment using Docker.\nManage data artifacts with Dagster.\nUse PySpark to analyze a large dataset.\nAdd some tests with nbdev and pytest.\nRun something in parallel using a cluster and try running something serverless.\nRun some static security analysis tools like SonarQube, Checkmarx, or Bandit.\nRegularly check dependencies with Dependabot or pip-audit.\nUse a service like DataBricks.\nWork on GCP’s MLOps certification (they provide test environments, so you don’t need to worry about over-spending)\nContribute to an open-source project.",
+    "crumbs": [
+      "Personal Sandbox"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
